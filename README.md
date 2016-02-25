@@ -1,4 +1,4 @@
-# Lavacharts Laravel Package
+# Laravel Integration for Lavacharts v3.1
 
 ## Package Features
 - Service provider for retrieving the Lavacharts instance from the container.

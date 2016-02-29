@@ -1,6 +1,6 @@
 {
     "name": "khill/laravel-lavacharts",
-    "description": "Laravel Service Provider for Lavacharts",
+    "description": "Laravel 5+ Service Provider for Lavacharts",
     "keywords": [
         "charts",
         "graphs",
@@ -12,9 +12,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Kevin Hill",
+            "name":  "Kevin Hill",
             "email": "kevinkhill@gmail.com",
-            "role": "Creator"
+            "role":  "Creator"
         }
     ],
     "support": {
@@ -24,7 +24,8 @@
         "issues": "https://github.com/kevinkhill/laravel-lavacharts/issues"
     },
     "require": {
-        "khill/lavacharts": "*"
+        "php": ">=5.4.0",
+        "khill/lavacharts": "~3"
     },
     "autoload": {
         "psr-4": {

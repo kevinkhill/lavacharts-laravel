@@ -27,14 +27,12 @@ class LavachartsServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        /**
-         * If the package method exists, we're using Laravel 4
-         */
-        if (method_exists($this, 'package')) {
-            $this->package('khill/lavacharts');
-        }
+        require(__DIR__.'/BladeTemplateExtensions.php');
 
-        include __DIR__.'/BladeTemplateExtensions.php';
+        $bladeExtensions = new BladeTemplateExtensions();
+
+        $bladeExtensions->registerChartDirectives();
+        $bladeExtensions->registerRenderAllDirective();
     }
 
     public function register()

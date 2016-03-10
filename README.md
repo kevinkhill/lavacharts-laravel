@@ -12,7 +12,7 @@
 ## Installing
 In your project's main ```composer.json``` file, add this line to the requirements:
 ```json
-"khill/lavacharts-laravel": "1.0.*"
+"khill/lavacharts-laravel": "3.1.*"
 ```
 Run composer to install lavacharts-laravel:
 ```bash

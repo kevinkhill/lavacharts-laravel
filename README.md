@@ -1,4 +1,4 @@
-# Laravel Integration for Lavacharts v3.1
+# Laravel Integration for Lavacharts v3.0
 
 ## Package Features
 - Service provider for retrieving the Lavacharts instance from the container.
@@ -12,7 +12,7 @@
 ## Installing
 In your project's main ```composer.json``` file, add this line to the requirements:
 ```json
-"khill/lavacharts-laravel": "1.0.*"
+"khill/lavacharts-laravel": "3.0.*"
 ```
 Run composer to install lavacharts-laravel:
 ```bash

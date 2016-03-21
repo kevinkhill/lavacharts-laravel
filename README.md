@@ -9,6 +9,8 @@
 
 ---
 
+## Installing
+
 ### Laravel 5.x
 Register Lavacharts in your app by adding this line to the end of the providers array in ```config/app.php```:
 ```php
@@ -83,5 +85,5 @@ With the Blade templating engine, you can use the extensions for a cleaner view
 ```
 
 # Changelog
- - 1.0.0
+ - 3.0.0
   - Initial Package

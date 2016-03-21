@@ -1,6 +1,6 @@
 {
-    "name": "khill/laravel-lavacharts",
-    "description": "Laravel 5+ Service Provider for Lavacharts",
+    "name": "khill/lavacharts-laravel",
+    "description": "Laravel Service Provider for Lavacharts",
     "keywords": [
         "charts",
         "graphs",
@@ -24,7 +24,8 @@
         "issues": "https://github.com/kevinkhill/laravel-lavacharts/issues"
     },
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "khill/lavacharts": "*"
     },
     "autoload": {
         "psr-4": {

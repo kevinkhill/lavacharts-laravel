@@ -5,7 +5,7 @@
 - Facade for using the ```Lava``` alias throughout the framework.
 - Blade template extensions for easy rendering in views
 
-#### This extension is included automatically with [https://github.com/kevinkhill/lavacharts](Lavacharts)
+#### This extension is included automatically with [Lavacharts](https://github.com/kevinkhill/lavacharts)
 
 ---
 

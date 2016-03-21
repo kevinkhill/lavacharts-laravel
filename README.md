@@ -1,24 +1,15 @@
-# Laravel Integration for Lavacharts v3.1
+# Laravel Integration for Lavacharts 3.0
 
 ## Package Features
 - Service provider for retrieving the Lavacharts instance from the container.
 - Facade for using the ```Lava``` alias throughout the framework.
 - Blade template extensions for easy rendering in views
 
-## For complete documentation, please visit [lavacharts.com](http://lavacharts.com/)
+#### This extension is included automatically with [Lavacharts](https://github.com/kevinkhill/lavacharts)
 
 ---
 
 ## Installing
-In your project's main ```composer.json``` file, add these lines to the requirements:
-```json
-"khill/lavacharts": "3.1.*",
-"khill/lavacharts-laravel": "3.1.*"
-```
-Run composer to install lavacharts-laravel:
-```bash
-$ composer update
-```
 
 ### Laravel 5.x
 Register Lavacharts in your app by adding this line to the end of the providers array in ```config/app.php```:
@@ -94,5 +85,5 @@ With the Blade templating engine, you can use the extensions for a cleaner view
 ```
 
 # Changelog
- - 1.0.0
+ - 3.0.0
   - Initial Package
